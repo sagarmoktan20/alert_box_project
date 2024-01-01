@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EXAM"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="350dp"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="1. Favourate color" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="350dp"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="2. Favourate food" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="350dp"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="3. programming language" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:layout_margin="30dp"/>
+</LinearLayout>
